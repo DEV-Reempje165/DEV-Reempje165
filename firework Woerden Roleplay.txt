@@ -1,0 +1,11 @@
+```
+#dit script is gemaakt door Reempje165#0960 het is NIET TOEGESTAAN om het bestand te delen zonder zijn toestemming
+```
+import fivem
+
+@fivem.command('firework')
+def firework():
+    # code to launch firework
+    pass
+
+fivem.run()

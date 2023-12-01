@@ -1,0 +1,15 @@
+```
+#dit script is gemaakt door Reempje165#0960 het is NIET TOEGESTAAN om het bestand te delen zonder zijn toestemming
+```
+```python
+import random
+
+def snow_in_fivem_server():
+    snow_chance = random.randint(1, 100)
+    if snow_chance <= 20:
+        print("It's snowing in the FiveM server!")
+    else:
+        print("No snow in the FiveM server.")
+
+snow_in_fivem_server()
+```

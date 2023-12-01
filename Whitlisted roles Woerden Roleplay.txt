@@ -1,0 +1,17 @@
+```
+#dit script is gemaakt door Reempje165#0960 het is NIET TOEGESTAAN om het bestand te delen zonder zijn toestemming
+```
+```python
+# Whitelist Roles FiveM Server
+
+whitelist = ["admin", "moderator",]
+
+def check_whitelist(role):
+    if role in whitelist:
+        print("Access granted!")
+    else:
+        print("Access denied!")
+
+check_whitelist("admin")
+check_whitelist("user")
+```

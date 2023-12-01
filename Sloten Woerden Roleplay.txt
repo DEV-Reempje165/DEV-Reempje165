@@ -1,0 +1,13 @@
+```
+#dit script is gemaakt door Reempje165#0960 het is NIET TOEGESTAAN om het bestand te delen zonder zijn toestemming
+```
+```python
+def open_station(locks):
+    if "LSPD Station" in locks and "Ambulance Station" in locks and "Taxi Station" in locks and "Mechanic Station" in locks:
+        print("Station opened successfully!")
+    else:
+        print("Insufficient roles to open the station.")
+
+locks = ["LSPD Station", "Ambulance Station", "Taxi Station", "Mechanic Station"]
+open_station(locks)
+```
